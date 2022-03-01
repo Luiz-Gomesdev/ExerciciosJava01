@@ -1,0 +1,25 @@
+package luiz.udemy.programa4;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class QuartoPrograma {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double R;
+		
+		R = sc.nextDouble();
+		
+		double A = Math.PI*(R*R);
+		
+		System.out.printf("A=%.4f", A);
+		
+		sc.close();
+
+	}
+
+}

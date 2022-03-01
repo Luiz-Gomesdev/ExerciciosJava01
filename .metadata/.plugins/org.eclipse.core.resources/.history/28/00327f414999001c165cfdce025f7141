@@ -1,0 +1,15 @@
+package luiz.udemy.programa4;
+
+public class QuartoPrograma {
+
+	public static void main(String[] args) {
+		
+		double R = 2;
+		
+		double A = Math.PI*(R*R);
+		
+		System.out.printf("A=%.4f", A);
+
+	}
+
+}

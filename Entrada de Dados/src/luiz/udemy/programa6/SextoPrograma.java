@@ -1,0 +1,35 @@
+package luiz.udemy.programa6;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class SextoPrograma {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int A, B, C, D;
+		
+		System.out.println("Entre com o valor de A: ");
+		A = sc.nextInt();
+		
+		System.out.println("Entre com o valor de B: ");
+		B = sc.nextInt();
+		
+		System.out.println("Entre com o valor de C: ");
+		C = sc.nextInt();
+		
+		System.out.println("Entre com o valor de D: ");
+		D = sc.nextInt();
+		
+		int DIFERENCA = ((A*B)- (C*D));
+		
+		System.out.println("DIFERENCA = " + DIFERENCA);
+		
+		sc.close();
+
+	}
+
+}

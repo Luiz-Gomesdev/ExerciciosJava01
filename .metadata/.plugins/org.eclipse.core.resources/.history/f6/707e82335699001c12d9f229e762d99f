@@ -1,0 +1,32 @@
+package luiz.udemy.programa9;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class NonoPrograma {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double A, B, C, TRIANGULO, CIRCULO, TRAPEZIO, QUADRADO, RETANGULO;
+		
+		System.out.println("Entre com o valor de A: ");
+		A = sc.nextDouble();
+		
+		System.out.println("Entre com o valor de B: ");
+		B = sc.nextDouble();
+		
+		System.out.println("Entre com o valor de C: ");
+		C = sc.nextDouble();
+		
+		TRIANGULO = (A*C)/2;
+		CIRCULO = Math.PI*(C);
+		
+		System.out.printf("TRIANGULO %.3f%n", TRIANGULO);
+		System.out.printf("TRIANGULO %.3f%n", CIRCULO);
+
+	}
+
+}

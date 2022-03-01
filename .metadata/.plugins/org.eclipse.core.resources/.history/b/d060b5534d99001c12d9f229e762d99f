@@ -1,0 +1,22 @@
+package luiz.udemy.programa6;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class SextoPrograma {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int A, B, C, D;
+		
+		System.out.println("Entre com o valor de A: ");
+		R = sc.nextDouble();
+		System.out.println("Entre com o valor de B: ");
+		R = sc.nextDouble();
+
+	}
+
+}

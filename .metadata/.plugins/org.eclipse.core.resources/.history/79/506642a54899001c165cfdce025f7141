@@ -1,0 +1,16 @@
+package luiz.udemy.programa4;
+
+public class QuartoPrograma {
+
+	public static void main(String[] args) {
+		
+		double raio = 2;
+		
+		double area = Math.PI*(raio*raio);
+		
+		System.out.println("A= " + area);
+		
+
+	}
+
+}
